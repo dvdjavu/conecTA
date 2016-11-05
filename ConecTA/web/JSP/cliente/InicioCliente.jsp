@@ -12,7 +12,23 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Cliente</h1>
-        
+        <div style=" txt-align: center; width: 50%">
+            <form>
+                <h1>Cliente</h1>
+                <br>
+                <br>
+                <label>Teléfono</label><br>
+                <input name="telefono" type="tel" /><br>
+                <label>Contraseña</label><br>
+                <input name="pass" type="password"/><br>
+                <input value="Iniciar sesión" type="submit"/><br>
+                
+                <a href="/registro"/>">registrarse</a>
+                
+            </form>
+
+        </div>
+
+
     </body>
 </html>
