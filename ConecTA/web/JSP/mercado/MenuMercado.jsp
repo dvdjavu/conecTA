@@ -5,7 +5,8 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%String nombre = request.getContextPath();%>
+<%@taglib prefix="s" uri="/struts-tags"%>
+<%String context = request.getContextPath();%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -13,6 +14,16 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello <%=nombre%>!</h1>
+        <h1>Hola <s:property value="nombrePropietario"/>!</h1>
+        
+        <fieldset>
+            <legend>Tareas principales</legend>
+            <ul>
+                <li><a href="<%=context%>/transportAyuda">Transportar ayuda</a></li>
+                <li><a href="<%=context%>/recolectAyuda">Recolectar ayuda en mi negocio</a></li>
+                
+            </ul>
+        </fieldset>
+        
     </body>
 </html>

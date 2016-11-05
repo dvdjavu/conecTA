@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%String context = request.getContextPath();%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -16,9 +17,9 @@
             <fieldset>
                 <legend>Inicio de sesión</legend>
                 <div style="text-align: center">
-                    <form action="loginMercado">
-                        <p>Nombre: <input type="text" name="nombre"></p>
-                        <p>Contraseña: <input type="password" name="pass"></p>
+                    <form action="<%=context%>/loginMercado">
+                        <p>Teléfono: <input type="text" name="nombrePropietario"></p>
+                        <p>Contraseña: <input type="password" name="password"></p>
                         <input type="submit" value="Iniciar sesión">
                     </form>
                 </div>

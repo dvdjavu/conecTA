@@ -10,7 +10,7 @@ package bean;
  * @author Harpo
  */
 public class BeanMercado {
-    private String nombrePropietatio;
+    private String nombrePropietario;
     private String nombreNegocio;
     private String telefono;
     private String password;
@@ -21,8 +21,8 @@ public class BeanMercado {
     public BeanMercado() {
     }
 
-    public BeanMercado(String nombrePropietatio, String nombreNegocio, String telefono, String password, String estado, String mercado, String seccion) {
-        this.nombrePropietatio = nombrePropietatio;
+    public BeanMercado(String nombrePropietario, String nombreNegocio, String telefono, String password, String estado, String mercado, String seccion) {
+        this.nombrePropietario = nombrePropietario;
         this.nombreNegocio = nombreNegocio;
         this.telefono = telefono;
         this.password = password;
@@ -32,11 +32,11 @@ public class BeanMercado {
     }
 
     public String getNombrePropietatio() {
-        return nombrePropietatio;
+        return nombrePropietario;
     }
 
-    public void setNombrePropietatio(String nombrePropietatio) {
-        this.nombrePropietatio = nombrePropietatio;
+    public void setNombrePropietatio(String nombrePropietario) {
+        this.nombrePropietario = nombrePropietario;
     }
 
     public String getNombreNegocio() {

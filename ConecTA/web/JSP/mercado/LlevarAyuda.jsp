@@ -12,6 +12,18 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <fieldset>
+            <legend>Transportar ayuda a un centro de acopio</legend>
+            <form>
+                <h3>Selecciona en el mapa la ubicación del centro de acopio más cercano</h3>
+                <iframe
+                    width="600"
+                    height="450"
+                    frameborder="0" style="border:0"
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDdzolh3ue4Z7JEXK1k1NXfS7u58Nz4ElE
+                    &q=Instituto+Tecnológico+de+Monterrey+Campus+Cuernavaca,Xochitepec+MOR" >
+                </iframe>
+            </form>
+        </fieldset>
     </body>
 </html>
