@@ -5,6 +5,8 @@
 <struts>
     <!-- Configuration for the default package. -->
     <package name="default" extends="struts-default">
-        
+        <action name="loginMercado" class="control.ControlMercado" method="loginMercado">
+            <result name="success"></result>
+        </action>
     </package>
 </struts>

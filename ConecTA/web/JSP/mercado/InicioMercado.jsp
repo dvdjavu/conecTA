@@ -16,7 +16,11 @@
             <fieldset>
                 <legend>Inicio de sesión</legend>
                 <div style="text-align: center">
-                    <p>Nombre: <input type="text"></p>
+                    <form action="loginMercado">
+                        <p>Nombre: <input type="text" name="nombre"></p>
+                        <p>Contraseña: <input type="password" name="pass"></p>
+                        <input type="submit" value="Iniciar sesión">
+                    </form>
                 </div>
             </fieldset>
         </div>
